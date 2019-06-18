@@ -13,13 +13,16 @@ try:
 	while True:
 		if GPIO.input(8) == GPIO.HIGH:
 		
+			#Nodeに渡す処理
 		
 		elif GPIO.input(8) == GPIO.HIGH:
 		
+			##Nodeに渡す処理
 		
 		#time.sleepp(0.1)
 		
 except KeyboardInterrupt:
 	pass
+	#例外処理
 	
 GPIO.cleanup()	
