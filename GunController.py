@@ -6,6 +6,7 @@ import RPI.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 GPIO.setup()
 
+#GPIO 8ビンと10ピンの初期化
 GPIO.setup(8, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 GPIO.setup(10, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
